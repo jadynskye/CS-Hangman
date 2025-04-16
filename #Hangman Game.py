@@ -198,12 +198,6 @@ def body_of_game():
         
 
 
-    #they have to be able to guess 
-    #modify for loop to be able to take input and place it in the correct spot 
-    #have to create a variable to store this 
-    #create digital hangman that updates as we go 
-
-
 def main():
     intro()
     body_of_game()
