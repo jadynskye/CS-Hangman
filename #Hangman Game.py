@@ -146,6 +146,12 @@ def body_of_game():
         #string to keep users guess
         users_guess = ''
 
+        #If the user already guessed the letter for each case
+        if user_input in correct_letters:
+            print(f"\nYou've already guessed {user_input}!")
+        if user_input in incorrect_letters:
+            print(f"\nYou've already guessed {user_input}!")
+
         for letter in computers_word:
             #if letter is the same as user_input, add the letter to the string and list
             if letter == user_input:
